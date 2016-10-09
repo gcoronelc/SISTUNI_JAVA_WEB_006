@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>VENTA</title>
+<style type="text/css">
+  #VENTA{
+    background-color: #FFFFF0;
+    color: #2F4F4F;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <div id="VENTA">
+    <h1>VENTA</h1>
+    <form method="post" action="VentaController">
+      <fieldset>
+        <legend>Datos Venta</legend>
+        <label>Precio:</label>
+        <input type="text" name="precio"/><br/>
+        <label>Cant:</label>
+        <input type="text" name="cant"/><br/>
+        <input type="submit" value="Procesar"/>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
