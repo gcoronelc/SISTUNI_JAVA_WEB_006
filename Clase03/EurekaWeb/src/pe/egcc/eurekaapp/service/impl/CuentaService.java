@@ -14,7 +14,7 @@ public class CuentaService implements CuentaServiceEspec{
           String codEmp) {
     Connection cn = null;
     try {
-      // ConexiÃ³n
+      // Conexión
       cn = AccesoDB.getConnection();
       // Iniciar Tx
       cn.setAutoCommit(false);

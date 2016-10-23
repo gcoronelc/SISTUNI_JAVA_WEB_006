@@ -34,8 +34,17 @@ legend:active{
   color: #0000FF;
 }
 
+label{
+	width: 50px;
+	display: inline-block;
+}
+
 input:focus{
   color: #2E64FE;
+}
+
+input{
+	display: inline;
 }
 
 .egcc_page{

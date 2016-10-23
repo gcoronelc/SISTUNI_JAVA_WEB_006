@@ -16,13 +16,17 @@
     <div class="egcc_header"><jsp:include page="util/header.jsp"/></div>
     <div class="egcc_nav"><jsp:include page="menu/menu.jsp"/></div>
     
-    <div class="egcc_content" style="text-align: center;">
+    <div id="_content" class="egcc_content" >
       
+      <div style="text-align: center;">
       <img alt="" src="img/portada.jpg">
+      </div>
     
     </div>
     
     <div class="egcc_footer"><jsp:include page="util/footer.jsp"/></div>
   </div>
 </body>
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<script type="text/javascript" src="js/eureka.js"></script>
 </html>
