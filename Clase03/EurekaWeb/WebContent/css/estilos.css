@@ -74,6 +74,15 @@ input:focus{
 }
 
 
+.egcc_error{
+	background-color:  #FFF0F5;
+	color: #F08080;
+	padding: 15px;
+	border: thin solid #F08080;
+}
+
+
+
 /* Estilos para tablas */
 
 .egcc_table>tbody>tr:nth-child(odd)>td,

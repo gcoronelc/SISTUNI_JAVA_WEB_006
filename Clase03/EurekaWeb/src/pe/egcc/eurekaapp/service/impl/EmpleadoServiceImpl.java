@@ -22,7 +22,9 @@ public class EmpleadoServiceImpl implements EmpleadoServiceEspec {
   private static final Logger LOGGER = Logger.getLogger(EmpleadoServiceImpl.class.getName());
 
   /**
-   * Valida el usuario y la clase en la BD. Si son correctos retorna un objeto de tipo Emplado. Caso contrario, retorna null.
+   * Valida el usuario y la clase en la BD. 
+   * Si son correctos retorna un objeto de tipo Emplado. 
+   * Caso contrario, retorna null.
    *
    * @param usuario
    * @param clave
@@ -53,7 +55,7 @@ public class EmpleadoServiceImpl implements EmpleadoServiceEspec {
       if (bean == null) {
         throw new Exception("Datos ingresados no son correctos.");
       }
-      LOGGER.log(Level.INFO, "ValidaciÃ³n de usuario ok.");
+      LOGGER.log(Level.INFO, "Validación de usuario ok.");
     } catch (Exception e) {
       LOGGER.log(Level.SEVERE, e.toString(), e);
       throw new RuntimeException(e.getMessage());
